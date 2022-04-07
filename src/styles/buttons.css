@@ -1,0 +1,34 @@
+.select-buttons {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttons {
+  background-color: #f39c12;
+  border: 1px solid #f39c12;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 10px 20px 0;
+  outline: none;
+  padding: 5px;
+  transition: all 0.3s;
+  width: 30%;
+}
+
+.buttons:hover {
+  background-color: rgb(246, 241, 255);
+  border: 1px solid #f39c12;
+  color: #f39c12;
+}
+
+.buttons-alignment {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
