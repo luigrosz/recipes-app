@@ -1,0 +1,37 @@
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f39c12;
+  padding: 15px;
+}
+
+footer div img {
+  width: 60px;
+  
+}
+
+footer div img:hover {
+  padding: 5px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px;
+  justify-content: flex-start;
+}
+
+.cards div {
+  margin: 10px;
+}
+
+header {
+  text-align: center;
+}
